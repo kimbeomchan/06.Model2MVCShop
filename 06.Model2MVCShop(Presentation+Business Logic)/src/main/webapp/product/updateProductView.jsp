@@ -44,6 +44,7 @@ function fncUpdateProduct(){
 	document.detailForm.submit();
 }
 -->
+
 </script>
 </head>
 

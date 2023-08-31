@@ -71,8 +71,8 @@ public class Product {
 	// Override
 	public String toString() {
 		return "ProductVO : [fileName]" + fileName
-				+ "[manuDate]" + manuDate+ "[price]" + price + "[prodDetail]" + prodDetail
-				+ "[prodName]" + prodName ;
+				+ "[manuDate]" + manuDate + "[price]" + price + "[prodDetail]" + prodDetail
+				+ "[prodName]" + prodName + "[regDate]" + regDate;
 	//	+ "[prodNo]" + prodNo;
 	}	
 }

@@ -34,6 +34,9 @@ public class ProductServiceImpl implements ProductService{
 	public Product addProduct(Product product) throws Exception {
 		System.out.println(product);
 		
+		
+		product.setManuDate(product.getManuDate().replace("-", ""));
+		
 		productDao.insertProduct(product);
 		return product;
 	
