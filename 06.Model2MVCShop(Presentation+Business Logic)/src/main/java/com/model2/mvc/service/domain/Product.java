@@ -4,6 +4,7 @@ import java.sql.Date;
 
 import org.springframework.context.annotation.Configuration;
 
+
 @Configuration
 public class Product {
 	
@@ -17,6 +18,7 @@ public class Product {
 	private String proTranCode;
 	
 	public Product(){
+		
 	}
 	
 	public String getProTranCode() {
